@@ -1,5 +1,5 @@
 <template>
-  <span>Copyright © 2019 - {{ year }} vbeats</span>
+  <span class="flex">{{ year }} vbeats</span>
 </template>
 
 <script lang="ts">
@@ -14,7 +14,7 @@ export default defineComponent({
       year: dayjs().year(),
     });
 
-    message.success("xxxxxxxxxxxxxxxxxxxxxxxx", 0);
+    message.success("位置对不齐啊啊啊啊啊啊", 0);
 
     return {
       ...data,
