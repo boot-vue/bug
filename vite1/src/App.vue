@@ -5,7 +5,7 @@
 <script lang="ts">
 import { defineComponent, reactive } from "vue";
 import dayjs from "dayjs";
-import { message } from "ant-design-vue";
+import { message, notification } from "ant-design-vue";
 
 export default defineComponent({
   name: "CopyRight",
@@ -15,6 +15,7 @@ export default defineComponent({
     });
 
     message.success("位置对不齐啊啊啊啊啊啊", 0);
+    notification.success({ message: "位置对不齐啊啊啊啊啊", duration: 0 });
 
     return {
       ...data,
