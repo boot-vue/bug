@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const t1 = import.meta.env.VITE_APP_XX;
-const t2 = import.meta.env.VITE_APP_OO;
-const t3 = import.meta.env.VITE_APP_XXOO;
+const t1 = import.meta.env.VITE_XX;
+const t2 = import.meta.env.VITE_OO;
+const t3 = import.meta.env.VITE_XXOO;
 </script>
 
 <template>

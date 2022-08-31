@@ -8,9 +8,9 @@ declare module '*.vue' {
 
 
 interface ImportMetaEnv {
-  readonly j: number
-  readonly VITE_APP_OO: string
-  readonly VITE_APP_XXOO: boolean
+  readonly VITE_XX: number
+  readonly VITE_OO: string
+  readonly VITE_XXOO: boolean
 }
 
 interface ImportMeta {
